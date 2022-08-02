@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 18px;
+    display: flex;
+    color:#fff;
+    height: 100vh;
+    background-color:  hsl(217, 54%, 11%);
+    justify-content: center;
+    align-items:center ;
+}
+img{
+    width: 250px;
+    border-radius: 8px;
+}
+h1{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 20px 0;
+}
+h2{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+p{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%)
+}
+hr{
+    height: 1px;
+    background-color:hsl(215, 32%, 27%);
+    border: none;
+}
+.main p{
+    margin-bottom: 20px;
+}
+.clock{
+    position: relative;
+    top:3px;
+    margin-right: 5px;
+}
+.random{
+    display: flex;
+    justify-content: space-between;
+}
+.random p{
+    color: hsl(178, 100%, 50%);
+}
+.container{
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 20px;
+}
+.main{
+    width: 250px;
+}
+.review img{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    border: 2px solid #fff;
+}
+
+.review{
+    display: flex;
+    align-items:center;
+    margin-top: 15px;
+    gap:15px;
+}
+.review p{
+    position: relative;
+    top:10px;
+    font-size: 14px;
+}
